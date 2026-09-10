@@ -1,0 +1,23 @@
+CREATE TABLE deliveries (
+    match_id INTEGER,
+    inning INTEGER,
+    batting_team TEXT,
+    bowling_team TEXT,
+    over INTEGER,
+    ball INTEGER,
+    batsman TEXT,
+    non_striker TEXT,
+    bowler TEXT,
+    is_super_over INTEGER,
+    wide_runs INTEGER,
+    bye_runs INTEGER,
+    legbye_runs INTEGER,
+    noball_runs INTEGER,
+    penalty_runs INTEGER,
+    batsman_runs INTEGER,
+    extra_runs INTEGER,
+    total_runs INTEGER,
+    player_dismissed TEXT,
+    dismissal_kind TEXT,
+    fielder TEXT
+);
